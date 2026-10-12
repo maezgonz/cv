@@ -1,5 +1,7 @@
 # cv
 
+![CV preview - page 1 of the CI-rendered PDF](cv_preview.png)
+
 ![Render](https://github.com/maezgonz/cv/actions/workflows/render.yml/badge.svg)
 
 Curriculum vitae: **Systems Engineer → High-Performance Computing & Quantitative Analysis**.
