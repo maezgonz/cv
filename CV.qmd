@@ -10,9 +10,7 @@ format:
     number-sections: false
 ---
 
-# Matias Ezequiel Gonzalez
-
-**Systems Engineer → High-Performance Computing & Quantitative Analysis**
+---
 
 Santiago de Compostela, Galicia, Spain · EU Passport · [github.com/maezgonz](https://github.com/maezgonz) · [linkedin.com/in/maezgonz](https://www.linkedin.com/in/maezgonz)
 
@@ -32,7 +30,7 @@ Currently pursuing an **MSc in High-Performance Computing at Universidade de San
 
 **[hpc-parallel-algorithms](https://github.com/maezgonz/hpc-parallel-algorithms)** — Parallel algorithms in C, benchmarked on CESGA FinisTerrae-3 (Intel icc 2021.3, Intel MPI, InfiniBand):
 
-- OpenMP Monte Carlo kernel: **17.6× speedup on 64 cores** (10⁹ samples), per-thread PCG RNG
+- OpenMP Monte Carlo kernel: **25.2× speedup at 32 threads**, 100% scaling efficiency to 16 threads (10⁹ samples), per-thread PCG RNG
 - **GBM engine: 2.66M paths/s** (10⁹ paths, antithetic variates) — validated against the closed-form Black-Scholes distribution to **6 significant digits**
 - Hybrid MPI+OpenMP Laplace solver across **2 physical nodes** with halo exchange
 - MPI ping-pong benchmark: **2.8 µs inter-node RTT / 12.2 GB/s**
